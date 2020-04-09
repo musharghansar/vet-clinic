@@ -11,7 +11,7 @@ public class WhenWeCreateANewDog {
 	public void a_new_dog_should_have_a_name_and_breed() {
 		Dog fido=DogBreeder.called("Fido")
 							.ofBreed("Poodle")
-							.withbirthDate(LocalDate.now())
+							.ofDOB(LocalDate.now())
 							.withfavFood("Corn")
 							 .andColour("White");
 		

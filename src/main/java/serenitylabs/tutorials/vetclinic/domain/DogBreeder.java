@@ -36,11 +36,6 @@ public class DogBreeder implements withBreed, WithDOB {
 
 	
 
-		public DogBreeder withbirthDate(LocalDate birthDate) {
-			this.birthDate=birthDate;
-			return this;
-		}
-
 		public DogBreeder withfavFood(String favFood) {
 			this.favFood=favFood;
 			return this;
